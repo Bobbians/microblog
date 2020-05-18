@@ -1,1 +1,97 @@
 2020-05-18 17:44:24,722 INFO: Microblog startup [in /home/robert/gitProjects/microblog/venv/app/__init__.py:43]
+2020-05-18 18:03:38,842 INFO: Microblog startup [in /home/robert/gitProjects/microblog/venv/app/__init__.py:43]
+2020-05-18 18:03:44,374 INFO: Microblog startup [in /home/robert/gitProjects/microblog/venv/app/__init__.py:43]
+2020-05-18 18:06:17,453 INFO: Microblog startup [in /home/robert/gitProjects/microblog/venv/app/__init__.py:43]
+2020-05-18 18:07:04,583 INFO: Microblog startup [in /home/robert/gitProjects/microblog/venv/app/__init__.py:43]
+2020-05-18 18:35:01,431 INFO: Microblog startup [in /home/robert/gitProjects/microblog/venv/app/__init__.py:43]
+2020-05-18 18:37:52,698 INFO: Microblog startup [in /home/robert/gitProjects/microblog/venv/app/__init__.py:43]
+2020-05-18 18:42:08,730 INFO: Microblog startup [in /home/robert/gitProjects/microblog/venv/app/__init__.py:43]
+2020-05-18 18:42:32,486 INFO: Microblog startup [in /home/robert/gitProjects/microblog/venv/app/__init__.py:43]
+2020-05-18 18:46:44,109 INFO: Microblog startup [in /home/robert/gitProjects/microblog/venv/app/__init__.py:43]
+2020-05-18 18:46:50,527 ERROR: Exception on /user/Bobbe [GET] [in /usr/local/lib/python2.7/dist-packages/flask/app.py:1892]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/robert/.local/lib/python2.7/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/robert/gitProjects/microblog/venv/app/routes.py", line 76, in user
+    form = EmptyForm()
+NameError: global name 'EmptyForm' is not defined
+2020-05-18 18:48:47,582 ERROR: Exception on /user/Bobbe [GET] [in /usr/local/lib/python2.7/dist-packages/flask/app.py:1892]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/robert/.local/lib/python2.7/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/robert/gitProjects/microblog/venv/app/routes.py", line 76, in user
+    form = EmptyForm()
+NameError: global name 'EmptyForm' is not defined
+2020-05-18 18:48:49,552 ERROR: Exception on /user/Bobbe [GET] [in /usr/local/lib/python2.7/dist-packages/flask/app.py:1892]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/robert/.local/lib/python2.7/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/robert/gitProjects/microblog/venv/app/routes.py", line 76, in user
+    form = EmptyForm()
+NameError: global name 'EmptyForm' is not defined
+2020-05-18 18:48:56,464 INFO: Microblog startup [in /home/robert/gitProjects/microblog/venv/app/__init__.py:43]
+2020-05-18 18:48:59,135 ERROR: Exception on /user/Bobbe [GET] [in /usr/local/lib/python2.7/dist-packages/flask/app.py:1892]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/robert/.local/lib/python2.7/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/robert/gitProjects/microblog/venv/app/routes.py", line 76, in user
+    form = EmptyForm()
+NameError: global name 'EmptyForm' is not defined
+2020-05-18 18:49:37,413 ERROR: Exception on /user/Bobbe [GET] [in /usr/local/lib/python2.7/dist-packages/flask/app.py:1892]
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/robert/.local/lib/python2.7/site-packages/flask_login/utils.py", line 272, in decorated_view
+    return func(*args, **kwargs)
+  File "/home/robert/gitProjects/microblog/venv/app/routes.py", line 76, in user
+    form = EmptyForm()
+NameError: global name 'EmptyForm' is not defined
+2020-05-18 18:50:28,220 INFO: Microblog startup [in /home/robert/gitProjects/microblog/venv/app/__init__.py:43]
